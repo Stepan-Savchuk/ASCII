@@ -1,0 +1,3 @@
+/media/D/workspaceOfC++/projects/quickStuff/ASCII/build/CMakeFiles/ASCII.dir
+/media/D/workspaceOfC++/projects/quickStuff/ASCII/build/CMakeFiles/edit_cache.dir
+/media/D/workspaceOfC++/projects/quickStuff/ASCII/build/CMakeFiles/rebuild_cache.dir

@@ -130,7 +130,7 @@ struct Image {
 	int gray = 0.2126*data[i] + 0.7152*data[i+1] + 0.722*data[i+2];
 	
 
-	std::string gray_ramp = "@$8W9H4Z1l(r/!:. ";
+	std::string gray_ramp = " .:!/r(l1X4H9W8$@";
 	int gray_length = gray_ramp.size();
 	
 	char character = gray_ramp[ceil((gray_length-1) * gray/255)];

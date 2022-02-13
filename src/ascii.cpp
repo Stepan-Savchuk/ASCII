@@ -127,17 +127,10 @@ struct Image {
       printf("Image &p has less than 3 channels, it is assumed to be arleady grayscaled");
     } else {
       for(int i=0, j=0; i < size-(channels-1); i+=channels, j++){
-	if(channels > 3){
-	  if(data[i+4] != 0){
-	    str+=' ';
-	    continue;
-	  }
-	}
-
 	int gray = 0.2126*data[i] + 0.7152*data[i+1] + 0.722*data[i+2];
 	
 
-	std::string gray_ramp = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrj/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
+	std::string gray_ramp = "@$8W9H4Z1l(r/!:. ";
 	int gray_length = gray_ramp.size();
 	
 	char character = gray_ramp[ceil((gray_length-1) * gray/255)];
